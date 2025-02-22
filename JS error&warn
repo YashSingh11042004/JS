@@ -1,0 +1,3 @@
+console.log("this is a algorithmic line");
+console.error("this is a error line");
+console.warn("this is a warning line");
