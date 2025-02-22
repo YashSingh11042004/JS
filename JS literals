@@ -1,0 +1,5 @@
+let pencilprice = 10;
+let eraseprice = 5;
+//let output = "The total price is:" + (pencilprice  + eraseprice) + "Rupees";
+//let output  = `The total price is: ${pencilprice} Rupees.`;
+console.log(`The total price is: ${pencilprice + eraseprice} Rupees.`);
