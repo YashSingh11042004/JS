@@ -1,0 +1,7 @@
+let info = ["yash" , "1" , "a" , "singh"];
+console.log(info);
+console.log(info.length);
+console.log(info[0]);
+console.log(info[0][0]);
+console.log(info[3]);
+console.log(info[4]);
