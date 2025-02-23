@@ -1,0 +1,3 @@
+let msg = "Well DefinedAlgorithm Need Optimize Code";
+console.log(msg.slice(12));
+console.log(msg.slice(-3));
