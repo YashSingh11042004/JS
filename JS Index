@@ -1,0 +1,3 @@
+let meg = "I love coding";
+console.log(meg.indexOf("v"));
+console.log(meg.indexOf("x"));
