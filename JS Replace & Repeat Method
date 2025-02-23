@@ -1,2 +1,10 @@
+//Replace
+
 let str ="I love coding";
 console.log(str.replace("coding" ,"TOC and Compiler"));
+
+//Repeat
+
+let str ="I love coding";
+console.log(str.replace("coding" ,"TOC and Compiler"));
+console.log(str.repeat(7));
