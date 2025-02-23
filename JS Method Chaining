@@ -1,0 +1,2 @@
+let word = "       YaSh    singh       ";
+console.log(word.toUpperCase().trim());
