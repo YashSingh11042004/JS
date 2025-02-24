@@ -1,1 +1,12 @@
+let fruits =["mango" , "apple" , "banana", "litchi" , "orange"];
+for(fruit of fruits){
+	console.log(fruit);
+}
 
+for (char of "apnacollege"){
+  console.log(char);
+}
+
+for (int of "3787382927878392839"){
+	console.log(int);
+        }
