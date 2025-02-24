@@ -1,0 +1,6 @@
+const student = {
+    name: "Yash",
+    age: 23,
+    marks: 90.78,
+    city: "Gandhinagar"
+};
