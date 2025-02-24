@@ -1,0 +1,10 @@
+const post = {
+    username: "@Yashsingh",
+    content: "This is my #first post",
+    likes: 3,
+    reposts: 189,
+    tags: "@VishIRAFerosy.ai"
+};
+
+console.log(post.tags);
+console.log(post["tags"]);
