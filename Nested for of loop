@@ -1,1 +1,11 @@
+let Hname = [
+	["ironman", "spiderman", "thor"],
+	["superman", "wonder women", "flash"]
+]
 
+for(let i =0; i<Hname.length; i++){
+   console.log(i,Hname[i],Hname[i].length);
+   for(let j=0; j<Hname[i].length; j++){
+	console.log(`j=${j}, ${Hname[i][j]}`);
+    }
+}
