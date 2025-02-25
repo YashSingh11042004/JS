@@ -1,0 +1,3 @@
+let num = [2,4,6,8,10];
+
+let mul = num.reduce((res , el) => (res*el));
