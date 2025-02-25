@@ -1,0 +1,22 @@
+let stu =[
+	{
+	name: "yash",
+	marks: 78,
+          },
+          {
+	name: "rakesh",
+	marks: 90,
+          },
+          {
+	name: "mahesh",
+	marks: 98,
+          },
+          {
+	name: "Harry",
+	marks: 67,
+          },
+         ];
+
+          let gpa = stu.map((el) => {
+	return el.marks/10;
+});
