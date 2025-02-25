@@ -1,0 +1,10 @@
+function sum(...args){
+      for(let i=0; i< args.length; i++){
+	console.log("yash singh" , args[1]);
+      }
+}
+
+function min(a,b,c,d){
+	console.log(arguments);
+	console.log(arguments.length);
+}
