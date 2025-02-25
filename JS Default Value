@@ -1,0 +1,13 @@
+function mul(a,b){
+	return a*b
+}
+
+console.log(mul(2,3));
+
+//default para
+
+function sum(a, b = 3){
+	return a + b;
+}
+console.log(sum(78,98));
+console.log(sum(78));
