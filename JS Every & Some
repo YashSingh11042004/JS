@@ -1,0 +1,21 @@
+let num = [2,4,6,8,10];
+
+let even = num.every((el) => {
+	return el%2 == 0;
+});
+
+let ojl = num.some((el) => {
+	return el%2 == 0;
+});
+
+//Another One 
+
+let oak = [2,4,6,8,9,10];
+
+let eveno = oak.every((el) => {
+	return el%2 == 0;
+});
+
+let ojlo = oak.some((el) => {
+	return el%2 == 0;
+});
