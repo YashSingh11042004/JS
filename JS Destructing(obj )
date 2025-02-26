@@ -1,0 +1,44 @@
+const student = {
+	name: "karan",
+	age: 17,
+	class:12,
+	subject: ["hindi","english","math","science"],
+	username: "karan123",
+	password: "abcd",
+};
+
+let username = student.username;
+let password = student.password;
+
+// using destructing(obj)
+
+const student = {
+	name: "karan",
+	age: 17,
+	class:12,
+	subject: ["hindi","english","math","science"],
+	username: "karan",
+	password: "abcd",
+};
+
+let {username: user, password: key} = student;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
