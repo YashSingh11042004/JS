@@ -1,0 +1,21 @@
+let names = ["tony", "bruce","peter","steve"];
+//let winner = names[0];
+//let FRwinner = names[1];
+//let SRwinner = names[2];
+
+let [winner, FRwinner, SRwinner] = names;
+console.log(FRwinner);
+console.log(SRwinner);
+console.log(winner);
+
+
+//Destructing with rest concepts
+let names = ["tony", "bruce","peter","steve","ton", "brue","peer","stve"];
+//let winner = names[0];
+//let FRwinner = names[1];
+//let SRwinner = names[2];
+
+let [winner, FRwinner, ...others] = names;
+console.log(FRwinner);
+console.log(others);
+console.log(winner);
