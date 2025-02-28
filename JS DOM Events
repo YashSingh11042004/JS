@@ -1,13 +1,11 @@
-img{
-	height: 300px;
-	width: 250px;
-}
-.box{
-	height: 250px;
-	width: 250px;
-	background-color: #b2aaaa;
-}
-#image3{
-	display: inline-block;
-	margin-left: 25px;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<button onclick="console.log('button wa clicked'); console.log('button wa clicked');">Click me</button>
+</body>
+</html>
