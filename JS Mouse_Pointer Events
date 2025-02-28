@@ -1,13 +1,39 @@
-img{
-	height: 300px;
-	width: 250px;
+?? JS ??
+let btns = document.querySelectorAll("a");
+ for(btn of btns){
+	btn.onclick = sayHello;
+	btn.onmouseenter = function(){
+		console.log("you entered in range of button");
+	}
+	console.dir(btn);
 }
-.box{
-	height: 250px;
-	width: 250px;
-	background-color: #b2aaaa;
+
+/*btn.onclick = function(){
+	alert("button on click mode");
+}*/
+
+function sayHello() {
+	alert("Hello!");
 }
-#image3{
-	display: inline-block;
-	margin-left: 25px;
-}
+
+?? HTML ??
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="button">
+	<a class="btn btn-primary" href="#" role="button">Click me</a>
+	<a class="btn btn-primary" href="#" role="button">Click me1</a>
+	<a class="btn btn-primary" href="#" role="button">Click me2</a>
+	<a class="btn btn-primary" href="#" role="button">Click me3</a>
+	<a class="btn btn-primary" href="#" role="button">Click me4</a>
+</div>
+	<script src="app.js" ></script>
+</body>
+</html>
