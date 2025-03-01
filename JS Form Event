@@ -1,1 +1,14 @@
+let frm = document.querySelector("form");
+frm.addEventListener("submit", function(){
+	alert("form submitted");
+})
 
+
+
+//if i dont want to go to any othet side then we use event.preventDefualt()
+
+let frm = document.querySelector("form");
+frm.addEventListener("submit", function(event){
+	event.preventDefault();
+	alert("form submitted");
+})
