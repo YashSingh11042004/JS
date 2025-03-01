@@ -1,1 +1,14 @@
+let form = document.querySelector("form");
+
+form.addEventListener("submit", function(event){
+	event.preventDefault();
+
+let input = document.querySelector("#input");
+let pas = document.querySelector("#pass");
+
+console.log("NAME:",input.value);
+console.log("PASSWORD:",pas.value);
+
+alert(`Hii ${input.value}, your password is set to ${pas.value}`);
+});
 
