@@ -1,0 +1,10 @@
+function savetoDb(data)  {
+	return new Promise((success, failure) => {
+		let InternetSpeed = Math.floor(Math.random() * 10) + 1;
+	          if ( InternetSpeed > 4) {
+			success("success:");
+		}  else {
+			failure("Denied");
+			}
+		});
+	}
