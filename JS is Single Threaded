@@ -1,0 +1,9 @@
+  setTimeout(() => {
+   console.log("123");
+}, 2000);
+
+setTimeout(() => {
+	console.log("abc");
+}, 2000);
+
+console.log("can you say 123 then abc but after 2 sec");
