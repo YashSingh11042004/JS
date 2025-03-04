@@ -1,0 +1,27 @@
+function savetoDb(data, success, failure) {
+	let internetSpeed = Math.floor(Math.random() * 10) + 1;
+	if (internetSpeed > 4){
+		success();
+	} else {
+		failure();
+	}
+}
+
+savetoDb(
+	"college",
+	() => {
+		console.log("success: Your data is saved");
+	           savetoDb(
+			"Hello world",
+			() => {
+				console.log("success2");
+			},
+			() => {
+				console.log("denied2");
+			}
+		 );
+	},
+	() => {
+		console.log("Denied: Your data not saved");
+	}
+);
