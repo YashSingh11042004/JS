@@ -1,0 +1,13 @@
+function hello()  {
+	console.log("hello is calling");
+   console.log("Hey how are you doing today");
+}
+
+function demo() {
+	console.log("demo func is calling");
+    hello();
+}
+
+console.log("starting");
+demo();
+console.log("Ending");
