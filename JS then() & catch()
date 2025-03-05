@@ -1,0 +1,18 @@
+function savetoDb(data) {
+    return new Promise((resolve, reject) => {
+	let internetSpeed = Math.floor(Math.random() * 10) + 1;
+	if (internetSpeed > 4) {
+		resolve("Success: Data saved to DB");
+	} else {
+		reject("Error: Data not saved to DB");
+	}
+    });
+}
+
+savetoDb("Some data")
+.then(() => {
+    console.log("success message");
+})
+.catch(() => {
+    console.log("Denied message");
+});
